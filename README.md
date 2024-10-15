@@ -1,2 +1,3 @@
-# Chatroom
-tcp and udp client server chatroom using java
+# Basic Chatroom using terminal
+## TCP and UDP client server chatroom using java
+### The program is a multiple client-server program that allows clients to chat with each other. This program is implemented using TCP and UDP protocols separately. With the TCP server, there is a welcoming socket which has a port number and each time a client initiates connection to the server a new socket is created. The TCP client server program is a messenger type of program where the server waits for client connection. The client will begin by connecting to the chat and sending a message which is sent to the server and broadcasted back to the chat where clients will communicate with each other. On the other hand, with the UDP server, there is no welcoming socket, and all data from different clients enter the server through one socket. The UDP client server program implements the same concept as the UDP client server program as well.
